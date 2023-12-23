@@ -1,0 +1,33 @@
+OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.
+OpenCV is a great tool for image processing and performing computer vision tasks. 
+It is an open-source library that can be used to perform tasks like face detection, objection tracking, landmark detection, and much more.
+
+TUTORIAL 1:
+- when you load image it extracts pixels and convert it into numpy array
+blue green red
+
+
+TUTORIAL 2:
+[0,   0,   0] -> black color, [255, 255, 255] -> white color
+0-255 -> color range(0 means - no color , 255 means - blue , in b/w means light blue)
+RedGreenBlue - general case but BlueGreenRed - opencv
+
+3x3 image:
+[
+    [ [ pixel values] --->col. of image ,[]     ,     []] -> row of image
+    [[],[],[]]
+    [[],[],[]]
+]
+image representation in numpy array: all pixels in col. -> all col. in rows -> you have multiple rows
+
+so we can rotate by manipulating array without using cv2 library
+
+print(img[257][400]) -> 257th row and mei 400th coln will be a pixel containing 3 values(if read at cv2.IMREAD_COLOR)
+
+TUTORIAL 3:
+
+
+
+
+
+

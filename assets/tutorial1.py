@@ -8,6 +8,7 @@ img = cv2.imread('assets/logo.png',1) # (path, color mod) -> parameters
 img = cv2.resize(img, (400,400)) # (img, (0,0), fx=2,fy=2) -> 2times bigger
 img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE) # cv2.ROTATE_90_COUNTERCLOCKWISE
 
+
 cv2.imshow('Image(window name)',img)  # (winname that will show up on opening, image name to be proccessed)
 cv2.waitKey(0) # 0 -> means it will wait infinite time until we press a key but if 5 then 5sec wait and auto shut
 cv2.destroyAllWindows() # destroy all windows after pressing any key
