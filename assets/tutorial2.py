@@ -2,7 +2,7 @@ import cv2
 import random
 
 img = cv2.imread('assets/logo.png',1) 
-img = cv2.resize(img, (400,400))
+img = cv2.resize(img, (450,450))
 #to change color of image at specific area 
 
 print(img) #-> numpy array
